@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Sell</title>
+    <style>
+        *{
+            background-color: rgb(211, 243, 250);
+            margin: 0;
+            padding: 5px;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .logo{
+            width: 80px;
+            height: 80px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        header{
+            display: flex;
+            height: 70px;
+            justify-content: space-around;
+            align-items: center;
+           
+        }
+        .signup{
+            background-color: black;
+            color: white;
+        }
+        .signup:hover
+        {
+            background-color: white;
+            color: black;
+        }
+
+        main{
+            display: flex;
+            height: 90vh;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+        }
+        .left{
+            flex: 1;
+        }
+
+        .mid{
+            flex: 2;
+        }
+        .right{
+            flex: 1;
+        }
+        .merc{
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+        }
+
+        .btn
+        {
+            background-color: black;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin: 50px;
+
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+        main h1{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 31.5x;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <img class="logo" src="./images/logo.png" alt="logo"/>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div class="left">
+            <h1>Mercury</h1>
+        </div>
+        <div class="mid">
+            <p>
+                Mercury is the first planet from the Sun and the smallest in the Solar System.<br><br>
+                In English, it is named after the ancient Roman god Mercurius (Mercury), god of commerce and communication, and the messenger of the gods.<br><br>
+                Mercury is classified as a terrestrial planet, with roughly the same surface gravity as Mars.<br><br>
+                The surface of Mercury is heavily cratered, as a result of countless impact events that have accumulated over billions of years.
+            </p>
+            <button class="btn">Buy Now</button>
+             </div>
+        <div class="right">
+            <img src="./images/Mercury.png" class="merc">
+            
+        </div>
+
+    </main>
+    <hr>
+    <main>
+        <div class="left">
+            <h1>Mars</h1>
+        </div>
+        <div class="mid">
+            <p>
+                Mars is no place for the faint-hearted.<br><br>
+                It’s dry, rocky, and bitter cold. The fourth planet from the Sun, Mars, is one of Earth's two closest planetary neighbors (Venus is the other).<br><br>
+                Mars is one of the easiest planets to spot in the night sky – it looks like a bright red point of light.<br><br>
+                Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to explore the alien landscape.
+            </p>
+            <button class="btn">Buy Now</button>
+             </div>
+        <div class="right">
+            <img src="./images/mars.jpeg" class="merc">
+            
+        </div>
+
+    </main>
+    <hr>
+</body>
+</html>
